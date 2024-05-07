@@ -138,7 +138,7 @@ public class UserInfo extends javax.swing.JFrame {
             public void run() {
                 UserInfo frame = new UserInfo();
             frame.setExtendedState(JFrame.MAXIMIZED_BOTH); // Set to full-screen mode
-            frame.setVisible(true);
+            frame.setVisible(true); //to show that it is visible
             }
         });
     }
