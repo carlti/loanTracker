@@ -37,7 +37,6 @@ public class AddTrack extends javax.swing.JFrame {
         jbtnAddLoan = new javax.swing.JButton();
         jbtnTrackPayment = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
 
         jButton2.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
         jButton2.setText("Add a loan");
@@ -97,11 +96,6 @@ public class AddTrack extends javax.swing.JFrame {
         });
         jPanel1.add(jButton1);
         jButton1.setBounds(10, 10, 110, 50);
-
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Carl Joshua\\Downloads\\loantracker\\loantracker\\src\\main\\java\\com\\mycompany\\loantracker\\Blue and White Modern Company Meeting Zoom Virtual Background.png")); // NOI18N
-        jLabel2.setText("jLabel2");
-        jPanel1.add(jLabel2);
-        jLabel2.setBounds(0, 0, 1310, 720);
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.CENTER);
 
@@ -196,7 +190,6 @@ public class AddTrack extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JButton jbtnAddLoan;
     private javax.swing.JButton jbtnTrackPayment;
